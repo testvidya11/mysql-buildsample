@@ -4,8 +4,6 @@ python:
 install: pip install --use-mirrors -r requirements.txt
 
 notifications:
-  email: 
-   - vidyac.raghav@gmail.com
-   
+  email: false
 script:
  - python sample.py
